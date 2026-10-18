@@ -1,5 +1,5 @@
 {
-  "name": "rakit-ui",
+  "name": "@zarr20/rakit-ui",
   "version": "1.0.0",
   "description": "Enterprise UI Component Library - Rakit UI",
   "type": "module",
@@ -34,6 +34,7 @@
     "ui",
     "components",
     "rakit-ui",
+    "@zarr20/rakit-ui",
     "tailwind",
     "enterprise-ui"
   ],

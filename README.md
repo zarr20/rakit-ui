@@ -1,8 +1,8 @@
-# Rakit UI (`rakit-ui`)
+# Rakit UI (`@zarr20/rakit-ui`)
 
 > Enterprise UI Component Library - Rakit UI.
 
-`rakit-ui` is a standalone, modular React component library providing core user interface primitives:
+`@zarr20/rakit-ui` is a standalone, modular React component library providing core user interface primitives:
 - **Button**: Highly customizable buttons with multiple variants (primary, secondary, outline, danger, success, ghost), loading spinners, and icon support.
 - **Badge**: Status indicators, MethodBadge (HTTP GET, POST, PUT, DELETE, PATCH), and StatusCodeBadge.
 - **Card**: Modular container with sub-components: CardHeader, CardTitle, CardDescription, CardContent, CardFooter, and FeatureBanner.
@@ -22,9 +22,9 @@
 
 ## 📦 Installation
 
-### From NPM Registry / GitHub Packages:
+### From NPM Registry:
 ```bash
-npm install rakit-ui
+npm install @zarr20/rakit-ui
 ```
 
 ### Or Directly from Git Repository:
@@ -39,7 +39,7 @@ npm install git+https://github.com/zarr20/rakit-ui.git
 ### 1. Import CSS Styles
 Add this import at the root of your application (e.g., `main.tsx` or `App.tsx`):
 ```tsx
-import 'rakit-ui/styles.css';
+import '@zarr20/rakit-ui/styles.css';
 ```
 
 ---
@@ -92,7 +92,7 @@ import {
   Modal,
   TextField,
   EmptyState
-} from 'rakit-ui';
+} from '@zarr20/rakit-ui';
 import { useState } from 'react';
 
 export function ExampleGeneralPage() {
