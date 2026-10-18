@@ -1,0 +1,4 @@
+import { CodeEditorProps } from '../../../types/ui/code-editor.types';
+export declare function CodeEditor({ value, onChange, language, readOnly, theme, viewMode: controlledViewMode, onViewModeChange, showLineNumbers, showToolbar, showViewToggle, showFormatButton, showCopyButton, showFullScreenButton, onFullScreen, onFormat, tabs, activeTab, onChangeTab, tabsVariant, tabsPosition, tabsActions, toolbarLayout, statusPosition, actionsPosition, customToolbar, toolbarProps: toolbarPropsOverride, height, maxHeight, className, editorClassName, placeholder, title, extraActions, searchTerm, }: CodeEditorProps): import("react").JSX.Element;
+export declare const JsonEditor: typeof CodeEditor;
+export type { CodeEditorProps, CodeEditorTheme, CodeEditorViewMode, JsonEditorProps, } from '../../../types/ui/code-editor.types';
