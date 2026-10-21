@@ -21,7 +21,7 @@
 ---
 
 <!-- LATEST_RELEASE_START -->
-## 🆕 What's New in v1.1.0
+## 🆕 What's New in v1.1.1
 
 - Complete enterprise UI component library with 5-tier sizing and modern Tailwind CSS v4 styling.
 <!-- LATEST_RELEASE_END -->
