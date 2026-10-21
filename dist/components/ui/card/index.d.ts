@@ -4,7 +4,7 @@ import { CardDescription } from './CardDescription';
 import { CardContent } from './CardContent';
 import { CardFooter } from './CardFooter';
 import { CardProps } from '../../../types/ui/card.types';
-export declare function Card({ children, className, padding, gap, variant, hoverable, collapsible, defaultCollapsed, isCollapsed: controlledCollapsed, onToggleCollapse, title, description, icon, iconBgColor, badge, actionSlot, actions, headerClassName, bodyClassName, ...props }: CardProps): import("react").JSX.Element;
+export declare function Card({ children, className, padding, gap, variant, hoverable, collapsible, defaultCollapsed, isCollapsed: controlledCollapsed, onToggleCollapse, title, description, icon, iconBgColor, badge, actionSlot, actions, headerClassName, bodyClassName, id, style, ...props }: CardProps): import("react").JSX.Element;
 export declare namespace Card {
     var Header: typeof CardHeader;
     var Title: typeof CardTitle;

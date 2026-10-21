@@ -10,6 +10,7 @@ export interface SelectOption {
 export interface SelectProps {
     options: (SelectOption | string)[];
     value?: string;
+    defaultValue?: string;
     onChange?: (value: string) => void;
     placeholder?: string;
     label?: ReactNode;
@@ -31,6 +32,7 @@ export interface SelectProps {
 export interface MultiSelectProps {
     options: (SelectOption | string)[];
     value?: string[];
+    defaultValue?: string[];
     onChange?: (value: string[]) => void;
     placeholder?: string;
     label?: ReactNode;

@@ -24,6 +24,7 @@ export interface ToastData {
         onClick?: () => void;
     };
     dismissible?: boolean;
+    showProgress?: boolean;
     theme?: ToastTheme;
     className?: string;
     createdAt?: number;

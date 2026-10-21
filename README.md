@@ -20,6 +20,15 @@
 
 ---
 
+<!-- LATEST_RELEASE_START -->
+## 🆕 What's New in v1.0.1
+
+- ✨ Complete enterprise UI component library with 5-tier sizing (xs, sm, md, lg, xl).
+- 🧩 Added Breadcrumb, Drawer, Grid, SegmentedControl, Sidebar, Typography, and CodeViewer components.
+- 🎨 Modern Tailwind CSS v4 design system with unified Slate & Lime aesthetics.
+- 🛠️ Production npm distribution pipeline mirroring @zarr20/rakit-routes.
+<!-- LATEST_RELEASE_END -->
+
 ## 📦 Installation
 
 ### From NPM Registry:

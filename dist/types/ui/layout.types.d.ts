@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { HTMLAttributes, ReactNode } from 'react';
 /**
  * Standardized stack layer tokens for layout hierarchy and z-index ordering.
  * Guarantees consistent layering across all components and overlays.
@@ -26,10 +26,12 @@ export interface LayoutBodyProps {
     children?: ReactNode;
 }
 export interface LayoutSidebarProps {
+    id?: string;
     isOpen?: boolean;
     onClose?: () => void;
-    width?: string;
     collapsed?: boolean;
+    onToggleCollapse?: () => void;
+    width?: string;
     collapsedWidth?: string;
     position?: 'left' | 'right';
     mobileMode?: 'drawer' | 'hidden';
@@ -38,7 +40,7 @@ export interface LayoutSidebarProps {
     className?: string;
     children?: ReactNode;
 }
-export interface LayoutContentProps {
+export interface LayoutContentProps extends HTMLAttributes<HTMLElement> {
     padded?: boolean;
     className?: string;
     children?: ReactNode;

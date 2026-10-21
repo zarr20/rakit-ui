@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-export type FieldSize = 'sm' | 'md' | 'lg';
+export type FieldSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 export type FieldLayout = 'vertical' | 'horizontal';
 export interface FieldWrapperProps {
     label?: ReactNode;

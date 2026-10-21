@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { FieldSize } from './fieldWrapper.types';
 export interface SwitchProps {
+    id?: string;
     checked?: boolean;
     defaultChecked?: boolean;
     onChange?: (checked: boolean) => void;

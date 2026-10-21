@@ -1,6 +1,6 @@
 {
   "name": "@zarr20/rakit-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enterprise UI Component Library - Rakit UI",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -27,6 +27,8 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "lucide-react": "^1.54.0",
+    "prismjs": "^1.30.0",
+    "react-runner": "^1.0.5",
     "tailwind-merge": "^3.0.2"
   },
   "keywords": [

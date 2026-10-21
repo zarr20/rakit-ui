@@ -1,4 +1,8 @@
 export { CodeEditor, JsonEditor } from './CodeEditor';
+export { CodeViewer, FileViewer } from './CodeViewer';
+export { LivePreview } from './LivePreview';
+export { LivePlayground, CodePlayground } from './LivePlayground';
+export { highlightCode } from './highlight';
 export { CodeEditorToolbar, CodeEditorToolbarActions, CodeEditorToolbarGroup, CodeEditorToolbarRow, CodeEditorToolbarStatus, CodeEditorToolbarTabs, CodeEditorToolbarViewToggle, getToolbarButtonClass, } from './CodeEditorToolbar';
 export { JsonTreeViewer } from './JsonTreeViewer';
 export { FullScreenCodeEditor, FullScreenJsonEditor } from './FullScreenCodeEditor';
@@ -11,6 +15,9 @@ export { JsonTreeViewer as JsonTreeEditor } from './JsonTreeViewer';
 export type { CodeEditorActionsPosition, CodeEditorLanguage, CodeEditorProps, CodeEditorStatusPosition, CodeEditorTheme, CodeEditorToolbarLayout, CodeEditorToolbarPosition, CodeEditorToolbarProps, CodeEditorViewMode, FullScreenCodeEditorProps, FullScreenJsonEditorProps, JsonEditorProps, JsonTreeEditorProps, JsonTreeViewerProps, JsonValueType, } from '../../../types/ui/code-editor.types';
 export type { CodeEditorToolbarActionsProps, CodeEditorToolbarGroupProps, CodeEditorToolbarRowProps, CodeEditorToolbarStatusProps, CodeEditorToolbarTabsProps, CodeEditorToolbarViewToggleProps, } from './CodeEditorToolbar';
 export type { FullScreenHeaderProps } from './FullScreenHeader';
+export type { CodeViewerProps, FileViewerProps, CodeViewerFile } from './CodeViewer';
+export type { LivePreviewProps } from './LivePreview';
+export type { LivePlaygroundProps, LivePlaygroundViewport } from './LivePlayground';
 export type { FullScreenToolbarProps } from './FullScreenToolbar';
 export type { FullScreenStatusBarProps } from './FullScreenStatusBar';
 export type { CodeGutterProps } from './CodeGutter';

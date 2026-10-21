@@ -11,6 +11,7 @@ export interface AutocompleteOption {
 export interface AutocompleteProps {
     options: (AutocompleteOption | string)[];
     value?: string;
+    defaultValue?: string;
     onChange?: (value: string, option?: AutocompleteOption) => void;
     placeholder?: string;
     label?: ReactNode;

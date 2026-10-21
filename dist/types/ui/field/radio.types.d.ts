@@ -20,6 +20,7 @@ export interface RadioProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 
 export interface RadioGroupProps {
     options: RadioOption[];
     value?: string;
+    defaultValue?: string;
     onChange?: (value: string) => void;
     name?: string;
     label?: ReactNode;

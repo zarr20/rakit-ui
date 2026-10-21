@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { TabItem, TabVariant } from './tabs.types';
-export type CodeEditorLanguage = 'json' | 'text' | 'yaml' | 'xml' | 'javascript' | string;
-export type CodeEditorViewMode = 'code' | 'tree' | 'split';
+export type CodeEditorLanguage = 'json' | 'tsx' | 'ts' | 'typescript' | 'jsx' | 'js' | 'javascript' | 'html' | 'css' | 'yaml' | 'xml' | 'text' | string;
+export type CodeEditorViewMode = 'code' | 'tree' | 'split' | 'preview';
 export type CodeEditorTheme = 'light' | 'dark';
 export type JsonValueType = 'string' | 'number' | 'boolean' | 'null' | 'object' | 'array';
 export type CodeEditorToolbarLayout = 'auto' | 'stacked' | 'single';
